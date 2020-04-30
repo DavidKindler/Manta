@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-redux > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - redux > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-color > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-dates > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-dnd > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-dnd-html5-backend > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - redux-actions > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-beautiful-dnd > react-redux > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-beautiful-dnd > redux > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-color > reactcss > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-dnd > dnd-core > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - react-dnd > dnd-core > redux > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > archiver > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > inquirer > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - styled-components > opencollective > inquirer > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > archiver > archiver-utils > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > archiver > async > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > archiver > zip-stream > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > gaze > globule > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
+    - spectron > webdriverio > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-04-30T22:56:50.873Z'
