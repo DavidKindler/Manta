@@ -28,7 +28,9 @@
     "lint": "find . -name \"*.js\" -o -name \"*.jsx\" | grep -v -f .gitignore | xargs eslint",
     "prettier:base": "prettier --write",
     "prettify": "find . -name \"*.js\" -o -name \"*.jsx\" | grep -v -f .gitignore | xargs npm run prettier:base",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "dotenv": "^5.0.1",
@@ -59,7 +61,8 @@
     "reselect": "^3.0.1",
     "spectron": "^3.8.0",
     "styled-components": "^3.2.1",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -120,5 +123,6 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "semi": true
-  }
+  },
+  "snyk": true
 }
