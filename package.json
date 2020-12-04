@@ -43,7 +43,7 @@
     "pouchdb-browser": "6.2.0",
     "rc-progress": "^2.2.5",
     "react": "^16.2.0",
-    "react-addons-shallow-compare": "^15.6.2",
+    "react-addons-shallow-compare": "^15.6.3",
     "react-beautiful-dnd": "^2.4.1",
     "react-color": "^2.13.8",
     "react-dates": "^12.6.0",
